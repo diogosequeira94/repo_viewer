@@ -11,22 +11,22 @@ dependencies:
   oauth2: ^2.0.2
   flutter_secure_storage: ^9.2.2
   dartz: ^0.10.1
-  dio: ^4.0.0
+  dio: ^5.1.1
   flutter_hooks: ^0.20.5
   hooks_riverpod: ^2.5.1
-  freezed_annotation: ^0.14.2
-  webview_flutter: ^2.0.8
+  freezed_annotation: ^2.4.4
+  webview_flutter: ^4.0.7
   flash: ^2.0.0
-  auto_route: ^2.2.0
+  auto_route: ^5.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^3.0.0
-  build_runner: ^2.0.4
-  freezed: ^0.14.2
-  auto_route_generator: ^2.1.0
+  build_runner: ^2.4.5
+  freezed: ^2.5.2
+  auto_route_generator: ^5.0.3
   lint: ^1.5.3
 
 flutter:

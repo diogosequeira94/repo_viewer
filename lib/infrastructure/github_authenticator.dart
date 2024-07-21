@@ -7,6 +7,10 @@ class GithubAuthenticator {
 
   const GithubAuthenticator(this._storage);
 
+  static const _clientId = 'Ov23lihisi6Gi1AJnm0N';
+  static const _clientSecret = 'ddfdd8bdfb9d9f9fc12d07ac11d9f78653952897';
+  static const _scopes = ['read:user', 'repo'];
+
   /// Returns [Credentials] in case the user is signedIn
   /// Returns null if user it NOT signedIn
   Future<Credentials?> getSignedInCredentials() async {
